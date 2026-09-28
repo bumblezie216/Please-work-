@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Lola ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="stars"></div>
+<div class="moon"></div>
+
+<header class="hero">
+  <div class="tiny">A little universe made for</div>
+  <h1>Lola ♡</h1>
+  <p class="subtitle">Twenty-seven years of you.</p>
+  <p class="intro">And somehow, in all the billions of people in this world, I got lucky enough to find you.</p>
+  <button class="enter" onclick="document.querySelector('#birthday').scrollIntoView({behavior:'smooth'})">Enter my little universe ↓</button>
+</header>
+
+<main id="birthday">
+<section class="section birthday">
+  <p class="eyebrow">♡ 27 September / October — her day</p>
+  <h2>Happy 27th Birthday, my love.</h2>
+  <p>Today isn't just about another year passing. It's about celebrating the person who makes my world softer simply by existing in it.</p>
+  <p>So I made you a tiny universe. Every little corner is here because it reminds me of you.</p>
+</section>
+
+<section class="section">
+  <h2>27 little reasons</h2>
+  <p class="hint">Tap a star.</p>
+  <div class="reason-grid" id="reasons"></div>
+</section>
+
+<section class="section story">
+  <h2>Our little story</h2>
+  <div class="timeline">
+    <div><span>01</span><h3>Then there was you.</h3><p>Add the moment you first met, first spoke, or first realised Lola mattered to you.</p></div>
+    <div><span>02</span><h3>The distance.</h3><p>Different places, different days, but somehow you still became home.</p></div>
+    <div><span>03</span><h3>The little things.</h3><p>Add your favourite memories, inside jokes and moments only the two of you understand.</p></div>
+    <div><span>04</span><h3>And now — 27.</h3><p>A new chapter for Lola, with a whole lot of love waiting inside it.</p></div>
+  </div>
+</section>
+
+<section class="section favourites">
+  <h2>Lola's little world</h2>
+  <p>All the tiny things that make me think of you.</p>
+  <div class="cards">
+    <article><div class="emoji">🩵</div><h3>Baby blue</h3><p>Your favourite colour — soft, peaceful and somehow completely you.</p></article>
+    <article><div class="emoji">🦦</div><h3>Otters</h3><p>Because obviously there had to be an otter corner.</p></article>
+    <article><div class="emoji">☕</div><h3>Black coffee</h3><p>For the girl who can make something bitter look beautiful.</p></article>
+    <article><div class="emoji">🌊</div><h3>The ocean</h3><p>One day, I want you to see it properly. And I want to be there beside you.</p></article>
+    <article><div class="emoji">🌌</div><h3>Stars</h3><p>A whole sky full of them still wouldn't be enough to describe what you mean to me.</p></article>
+    <article><div class="emoji">🦋</div><h3>Your little things</h3><p>Add another favourite here — a food, place, animal, colour, habit or inside joke.</p></article>
+  </div>
+</section>
+
+<section class="section gallery">
+  <h2>Us, in another universe</h2>
+  <p class="hint">Put your favourite AI anime pictures of you two in the <b>images</b> folder and name them <b>us1.jpg</b>, <b>us2.jpg</b>, etc.</p>
+  <div class="gallery-grid">
+    <div class="photo"><img src="images/us1.jpg" onerror="this.parentElement.classList.add('empty')"><span>Add your first anime picture</span></div>
+    <div class="photo"><img src="images/us2.jpg" onerror="this.parentElement.classList.add('empty')"><span>Add your second anime picture</span></div>
+    <div class="photo"><img src="images/us3.jpg" onerror="this.parentElement.classList.add('empty')"><span>Add your third anime picture</span></div>
+    <div class="photo"><img src="images/us4.jpg" onerror="this.parentElement.classList.add('empty')"><span>Add your fourth anime picture</span></div>
+  </div>
+</section>
+
+<section class="section letters">
+  <h2>Open when...</h2>
+  <div class="letter-buttons">
+    <button onclick="openLetter('miss')">💌 You miss me</button>
+    <button onclick="openLetter('sad')">🌧️ You're sad</button>
+    <button onclick="openLetter('sleep')">🌙 You can't sleep</button>
+    <button onclick="openLetter('loved')">🩵 You need to feel loved</button>
+  </div>
+</section>
+
+<section class="section music">
+  <h2>A song for you</h2>
+  <p>I left a place here for the guitar instrumental of <i>The One That Got Away</i>.</p>
+  <p class="small">For copyright reasons, this site doesn't include or redistribute the recording. If you have a legally obtained audio file you have permission to use, place it in <b>audio/the-one-that-got-away.mp3</b>.</p>
+  <audio controls preload="none">
+    <source src="audio/the-one-that-got-away.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+  </audio>
+</section>
+
+<section class="section future">
+  <h2>Places we haven't been yet</h2>
+  <div class="future-list">
+    <div>🌊 <b>The ocean</b><span>One day.</span></div>
+    <div>🌅 <b>A sunrise together</b><span>Not through a screen.</span></div>
+    <div>✈️ <b>A place neither of us has seen</b><span>Somewhere new.</span></div>
+    <div>🏠 <b>A little place of our own</b><span>Something that feels like home.</span></div>
+    <div>🌌 <b>A sky full of stars</b><span>Both of us looking up at the same one.</span></div>
+  </div>
+</section>
+
+<section class="section final">
+  <div class="final-card">
+    <div class="tiny">For my Lola</div>
+    <h2>Until I can give you these things in person...</h2>
+    <p>let this little universe hold them for me.</p>
+    <p class="signature">Love always,<br><strong>Bree / Putiputi ♡</strong></p>
+    <button class="final-btn" onclick="revealFinal()">One last thing...</button>
+    <p id="finalMessage" class="hidden">If I could give you anything for your birthday, it would be the ability to see yourself through my eyes. Maybe then you'd finally understand why I love you so much.</p>
+  </div>
+</section>
+</main>
+
+<div class="modal" id="modal" onclick="if(event.target===this) closeModal()">
+  <div class="modal-box">
+    <button class="close" onclick="closeModal()">×</button>
+    <p id="modalText"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
